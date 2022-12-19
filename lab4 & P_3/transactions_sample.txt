@@ -1,0 +1,55 @@
+#first enhanced account
+new EnhancedBankAccount	Smith	Joe	0	0
+
+# set dates[0]
+getDate	0
+withdrawFromChecking	10.0
+withdrawFromSavings	20.0
+depositToChecking	100.0
+depositToChecking	200.0
+depositToSavings	200.0
+depositToSavings	100.0
+transferToChecking	1000.0
+transferToSavings	2000.0
+transferToChecking	10.0
+transferToSavings	20.0
+withdrawFromChecking	10.0
+withdrawFromSavings	20.0
+
+# set dates[1]
+getDate	1
+transferToChecking	2000.0
+transferToSavings	1000.0
+transferToChecking	2.0
+transferToSavings	1.0
+withdrawFromChecking	20.0
+withdrawFromSavings	10.0
+withdrawFromChecking	30.0
+withdrawFromSavings	40.0
+
+# set dates[2]
+getDate	2
+
+# there should be eight successful transactions between dates[0] and dates[1]
+getSuccessfulTransactions	0	1
+
+# there should be six failed transactions between dates[0] and dates[2]
+getFailedTransactions	0	2
+
+# there should be three withdrawals from checking
+getWithdrawFromChecking	0
+
+# there should be three withdrawals from savings
+getWithdrawFromSavings	0
+
+# there should be two deposits to checking
+getDepositToChecking	0
+
+# there should be two deposits to savings
+getDepositToSavings	0
+
+# there should be two transfers to checking
+getTransferToChecking	0
+
+# there should be two transfers to savings
+getTransferToSavings	0

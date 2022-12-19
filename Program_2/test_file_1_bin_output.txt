@@ -1,0 +1,13 @@
+string	dog aces diesel frogs fish horses pigs cows
+int	29833492
+int	17051
+int	3000458922
+int	32000
+int array	22,50,900000,87321,225968,2021140,992146,-75,-13683
+string	Gets a double from the second ByteBuffer at offset 0
+int	-94784
+int	-17776
+int	-93256458922
+int	-21
+int array	0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+double array	-12.9931,31.01102,9223433.23
